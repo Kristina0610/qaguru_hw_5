@@ -7,10 +7,10 @@ import static com.codeborne.selenide.Configuration.*;
 public class TestBaseClass {
   @BeforeAll
   static void beforeAll() {
-    baseUrl = "https://github.com";
     browser = "firefox";
     browserSize = "1520x1080";
     holdBrowserOpen = true;
+    timeout = 6000;
 
   }
 
