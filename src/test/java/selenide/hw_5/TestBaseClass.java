@@ -4,7 +4,7 @@ import org.junit.jupiter.api.BeforeAll;
 
 import static com.codeborne.selenide.Configuration.*;
 
-public class BaseClass {
+public class TestBaseClass {
   @BeforeAll
   static void beforeAll() {
     baseUrl = "https://github.com";
